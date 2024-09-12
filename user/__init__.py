@@ -24,7 +24,7 @@ API_ID = int(os.environ.get('API_ID'))  # Assuming API_ID is an integer environm
 API_HASH = os.environ.get('API_HASH')  # Assuming API_HASH is a string environment variable
 SESSION = os.environ.get('SESSION')  # Assuming SESSION is a string environment variable, likely a session name
 
-SUDO = [6511724381, 1867106198]  # List of authorized user IDs
+SUDO = [6200605339]  # List of authorized user IDs
 piro = Client(
         "Userbot",
         session_string=SESSION,
